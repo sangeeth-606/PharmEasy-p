@@ -1,13 +1,5 @@
-// import React from 'react'
-
 import { Button, HStack } from "@chakra-ui/react";
-import logo from "../Assets/logo_big.svg";
-import ic_ex from "../Assets/ic_express delivery.svg";
-import serr from "../Assets/serr.png";
-import mob from "../Assets/mob.png";
-import prof from "../Assets/prof.png";
-import offer from "../Assets/offer.png";
-import cart from "../Assets/cart.png";
+import logo from "../Assets/logo_big.svg"; import ic_ex from "../Assets/ic_express delivery.svg"; import serr from "../Assets/serr.png"; import mob from "../Assets/mob.png"; import prof from "../Assets/prof.png"; import offer from "../Assets/offer.png"; import cart from "../Assets/cart.png";
 
 function Navbar() {
   return (
