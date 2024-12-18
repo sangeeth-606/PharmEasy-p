@@ -3,6 +3,7 @@ import { ChakraProvider, Box, Grid, GridItem } from "@chakra-ui/react";
 import theme from "./theme/theme";
 import Navbar from "./components/Navbar";
 import Herosection from "./components/Home/Herosection";
+import CategoriesSection from "./components/Home/CategoriesSection";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         {/* Main Content */}
         <GridItem area="main" bg="gray.100" padding={4}>
           <Herosection />
+          <CategoriesSection />
         </GridItem>
 
         {/* Footer */}

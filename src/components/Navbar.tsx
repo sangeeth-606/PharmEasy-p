@@ -32,7 +32,7 @@ function Navbar() {
         </div>
         {/* search container area  */}
         <HStack
-          className="searchcontainer"
+          className="searchcontainer  text-gray-600 placeholder-gray-400"
           borderRadius={20}
           bg="white"
           p={1}
