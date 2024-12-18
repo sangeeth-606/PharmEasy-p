@@ -55,7 +55,7 @@ const Scrollboxreuse = () => {
       <div
       style={{
         width: "75%", // 70% width for the parent container
-        maxWidth: "75vw", // Prevent exceeding 70% of the viewport width
+        overflowY: "hidden", // Prevent vertical scroll
         margin: "0 auto", // Center the parent div horizontally
         overflow: "hidden", // Prevent any child overflow
         boxSizing: "border-box",

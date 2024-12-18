@@ -10,6 +10,8 @@ import Slugscroll from "./components/Home/Slugscroll";
 // import Scrollboxreuse from "./components/Home/Scrollboxreuse";
 import Labtest from "./components/Home/Labtest";
 import UploadArea from "./components/Home/UploadArea";
+import ShopbyCategories from "./components/Home/ShopbyCategories";
+import AdsArea from "./components/Home/AdsArea";
 
 function App() {
   // const categories = [
@@ -47,6 +49,8 @@ function App() {
           <Slugscroll />
           <Labtest />
           <UploadArea />
+          <ShopbyCategories />
+          <AdsArea />
         </GridItem>
 
         {/* Footer */}
