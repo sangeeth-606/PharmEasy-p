@@ -5,19 +5,19 @@ import Scrollboxreuse from "./Scrollboxreuse";
 
 const Labtest = () => {
   return (
-    <>
-      <div
+    <div className="mb-5 mt-5" style={{ overflow: "hidden" }}>
+      <div className="p-5 m-10  "
         style={{
-          width: "70%", // 70% width for the parent container
-          maxWidth: "70vw", // Prevent exceeding 70% of the viewport width
+          width: "75%", // 70% width for the parent container
+          maxWidth: "75vw", // Prevent exceeding 70% of the viewport width
           margin: "0 auto",
           boxSizing: "border-box",
         }}
       >
-        <div>
-          <h1>Lab Tests by Health Concern</h1>
+        <div  >
+          <h1 className="text-3xl font-semibold mb-4">Lab Tests by Health Concern</h1>
           <HStack>
-            <p>Powered by</p>
+            <p className="text-gray-500" style={{ marginRight: "10px", fontSize: "16px", fontWeight: "500" }}>Powered by</p>
             <img
               className="4-6 h-5"
               src="https://assets.pharmeasy.in/apothecary/images/Thyrocare.webp?dim=1440x0"
@@ -26,8 +26,8 @@ const Labtest = () => {
           </HStack>
         </div>
       </div>
-      <Scrollboxreuse />
-    </>
+      <Scrollboxreuse  />
+    </div>
   );
 };
 

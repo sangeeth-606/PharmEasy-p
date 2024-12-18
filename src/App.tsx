@@ -9,6 +9,7 @@ import CategoriesSection from "./components/Home/CategoriesSection";
 import Slugscroll from "./components/Home/Slugscroll";
 // import Scrollboxreuse from "./components/Home/Scrollboxreuse";
 import Labtest from "./components/Home/Labtest";
+import UploadArea from "./components/Home/UploadArea";
 
 function App() {
   // const categories = [
@@ -40,12 +41,12 @@ function App() {
         </GridItem>
 
         {/* Main Content */}
-        <GridItem area="main" bg="gray.100" padding={4}>
+        <GridItem area="main" bg="white" padding={4}>
           <Herosection />
           <CategoriesSection />
-          {/* <ScrollableNav items={categories} /> */}
           <Slugscroll />
           <Labtest />
+          <UploadArea />
         </GridItem>
 
         {/* Footer */}
