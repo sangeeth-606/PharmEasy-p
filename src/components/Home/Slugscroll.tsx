@@ -50,6 +50,7 @@ function Slugscroll() {
           maxWidth: "70vw", // Prevent exceeding 70% of the viewport width
           margin: "0 auto", // Center the parent div horizontally
           overflow: "hidden", // Prevent any child overflow
+          
           boxSizing: "border-box",
         }}
       >
@@ -59,6 +60,8 @@ function Slugscroll() {
             overflowX: "auto", // Horizontal scroll confined to this container
             gap: "20px",
             scrollBehavior: "smooth",
+            // overflowX: "hidden", // Prevent horizontal scroll on the page
+            overflowY: "hidden", // Prevent horizontal scroll on the page
             whiteSpace: "nowrap", // Prevent wrapping
           }}
         >
