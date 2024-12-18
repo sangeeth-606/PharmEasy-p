@@ -1,4 +1,4 @@
-import img from "../../assets/image.png";
+// import img from "../../assets/image.png";
 import serr from "../../assets/serr.png";
 import { Button, HStack } from "@chakra-ui/react";
 
