@@ -12,6 +12,7 @@ import Labtest from "./components/Home/Labtest";
 import UploadArea from "./components/Home/UploadArea";
 import ShopbyCategories from "./components/Home/ShopbyCategories";
 import AdsArea from "./components/Home/AdsArea";
+import LabtestCard from "./components/Home/LabtestCard";
 
 function App() {
   // const categories = [
@@ -51,6 +52,7 @@ function App() {
           <UploadArea />
           <ShopbyCategories />
           <AdsArea />
+          <LabtestCard/>
         </GridItem>
 
         {/* Footer */}
