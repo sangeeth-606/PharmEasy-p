@@ -13,6 +13,8 @@ import UploadArea from "./components/Home/UploadArea";
 import ShopbyCategories from "./components/Home/ShopbyCategories";
 import AdsArea from "./components/Home/AdsArea";
 import LabtestCard from "./components/Home/LabtestCard";
+// import ScrollboxreuseType2 from "./components/Home/ScrollboxreuseType2";
+import SpotLight from "./components/Home/SpotLight";
 
 function App() {
   // const categories = [
@@ -53,6 +55,8 @@ function App() {
           <ShopbyCategories />
           <AdsArea />
           <LabtestCard/>
+          
+          <SpotLight />
         </GridItem>
 
         {/* Footer */}
