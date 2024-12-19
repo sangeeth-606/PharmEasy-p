@@ -1,5 +1,5 @@
 import { Grid, Box, Text, Image } from "@chakra-ui/react";
-import med from "../../assets/med.webp";
+// import med from "../../assets/med.webp";
 import lab from "../../assets/asset 5.webp";
 import hl from "../../assets/asset 6.webp";
 import hbag from "../../assets/asset 7.webp";
@@ -8,7 +8,7 @@ import value from "../../assets/asset 10.png";
 
 const CategoriesSection = () => {
   const categories = [
-    { name: "Medicine", image: med, discount: "SAVE 22% OFF" },
+    // { name: "Medicine", image: med, discount: "SAVE 22% OFF" },
     { name: "Lab Tests", image: lab, discount: "UPTO 70% OFF" },
     { name: "Healthcare", image: hl, discount: "UPTO 60% OFF" },
     { name: "PLUS", image: hbag, discount: "SAVE 5% EXTRA" },
