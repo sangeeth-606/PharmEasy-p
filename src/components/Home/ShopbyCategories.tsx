@@ -1,4 +1,5 @@
 import Scrollboxreuse from "./Scrollboxreuse";
+import ScrollboxreuseType2 from "./ScrollboxreuseType2";
 
 const ShopbyCategories = () => {
   return (
@@ -39,7 +40,7 @@ const ShopbyCategories = () => {
       </div>
       <div className="mt-8" >
         
-      <Scrollboxreuse  />
+      <ScrollboxreuseType2  />
       </div>
     </div>
   
