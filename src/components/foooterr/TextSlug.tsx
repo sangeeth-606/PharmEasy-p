@@ -11,7 +11,7 @@ function TextSlug() {
         borderRadius: "8px",
       }}
     >
-      <h2 style={{ fontWeight: "bold", margin: "20px 0 10px" }}>
+      <h2 className="text text-base font-semibold" style={{  margin: "20px 0 10px" }}>
         Top Tests We Cover
       </h2>
       <ul style={{ paddingLeft: "20px", marginBottom: "20px", lineHeight: "1.6" }}>
@@ -25,7 +25,7 @@ function TextSlug() {
         </p>
       </ul>
 
-      <h2 style={{ fontWeight: "bold", margin: "20px 0 10px" }}>
+      <h2 className="text text-base font-semibold" style={{  margin: "20px 0 10px" }}>
         Top-Selling Healthcare Products
       </h2>
       <ul style={{ paddingLeft: "20px", marginBottom: "20px", lineHeight: "1.6" }}>
@@ -37,7 +37,7 @@ function TextSlug() {
         Probiotic Syrup | Durex Intense Vibe Ring | I-Know Ovulation Kit
       </ul>
 
-      <h2 style={{ fontWeight: "bold", margin: "20px 0 10px" }}>
+      <h2 className="text text-base font-semibold" style={{  margin: "20px 0 10px" }}>
         Top-Selling Medicines
       </h2>
       <ul style={{ paddingLeft: "20px", marginBottom: "20px", lineHeight: "1.6" }}>
@@ -48,19 +48,20 @@ function TextSlug() {
         1
       </ul>
 
-      <h2 style={{ fontWeight: "bold", margin: "20px 0 10px" }}>
+      <h2 className="text text-base font-semibold" style={{  margin: "20px 0 10px" }}>
         COVID-19 Preventatives
       </h2>
       <ul style={{ paddingLeft: "20px", marginBottom: "20px", lineHeight: "1.6" }}>
         Hand Sanitizers | Hand Gloves, Disinfectants, Thermometers & more! | N95 Masks
       </ul>
 
-      <h2 style={{ fontWeight: "bold", margin: "20px 0 10px" }}>
+      <h2 className="text text-base font-semibold" style={{  margin: "20px 0 10px" }}>
         Why Are We The Most Preferred Online Pharmacy?
       </h2>
       <ul>
         Our doorstep delivery service is available in PAN-India across top cities like Bangalore, Delhi, Mumbai, Kolkata, Hyderabad, Gurgaon, Noida, Pune, etc. Our online medical store also allows you to choose from 1 lakh+ products including OTC products and medical equipment. PharmEasy is a one-stop online medical platform where you can also book diagnostic tests including blood tests, full-body checkups, and other preventive health check-ups at an affordable cost, right from the comfort of your home. We have partnered with trusted & certified labs that arrange for a sample pick-up from the convenience of your home. They also provide you with timely reports.
       </ul>
+      <h2 className="text text-base font-semibold mt-8 " >We Believe in ‘Simplifying Healthcare, Impacting Lives!’</h2>
     </div>
   );
 }

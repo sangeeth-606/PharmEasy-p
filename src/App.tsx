@@ -19,6 +19,7 @@ import ScrollType3 from "./components/Home/ScrollType3";
 import WhyChooseUs from "./components/Home/WhyChooseUs";
 import What from "./components/foooterr/What";
 import TextSlug from "./components/foooterr/TextSlug";
+import Last from "./components/foooterr/Last";
 
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
         <GridItem area="footer" bg="white" padding={4}>
           <What />
           <TextSlug />
+          <Last />
         </GridItem>
       </Grid>
     </ChakraProvider>
