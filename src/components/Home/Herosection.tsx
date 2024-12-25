@@ -1,5 +1,4 @@
-import img from "../../assets/image.png";
-import serr from "../../assets/serr.png";
+
 import { Button, HStack } from "@chakra-ui/react";
 
 function Herosection() {
@@ -13,7 +12,7 @@ function Herosection() {
         </h3>
 
       <span className="flex items-center text-teal-600 cursor-pointer">
-        <img className="w-6 h-6 mr-2" src={img} alt="icon" />
+        <img className="w-6 h-6 mr-2" src={"https://cdn.iconscout.com/icon/free/png-512/free-search-icon-download-in-svg-png-gif-file-formats--zoom-logo-find-magnifier-glass-user-interface-pack-icons-1502119.png?f=webp&w=256"} alt="icon" />
         <span  className="text-sm font-medium text-gray-500 " style={{ marginRight: "8px" }} >Order with prescription </span> 
         <a href="#" className="hover:underline font-semibold text-teal-600">
         UPLOAD NOW <span>&gt;</span>
@@ -26,7 +25,7 @@ function Herosection() {
         className="bg-white rounded-full shadow-md border border-gray-300 w-80% px-4 py-2"
         spacing={4}
       >
-        <img src={serr} alt="search" className="w-5 h-5" />
+        <img src={"https://cdn.iconscout.com/icon/free/png-512/free-search-icon-download-in-svg-png-gif-file-formats--zoom-logo-find-magnifier-glass-user-interface-pack-icons-1502119.png?f=webp&w=256"} alt="search" className="w-5 h-5" />
 
         <input
           type="text"
