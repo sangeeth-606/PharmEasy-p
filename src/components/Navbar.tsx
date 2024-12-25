@@ -79,11 +79,11 @@ function Navbar() {
           boxShadow="none"
         >
           <img src={prof} alt="profile" className="w-4 h-4" />
-          <span
+          <span className="text-xs font-base text-gray-600"
             style={{
-              fontSize: "14px",
-              color: "#555",
-              fontWeight: "400",
+              // fontSize: "14px",
+              // color: "#555",
+              // fontWeight: "400",
               marginLeft: "4px",
               fontFamily: "Arial, sans-serif",
             }}
@@ -100,11 +100,11 @@ function Navbar() {
           boxShadow="none"
         >
           <img src={offer} alt="profile" className="w-4 h-4" />
-          <span
+          <span className="text-xs font-base text-gray-600"
             style={{
-              fontSize: "14px",
-              color: "#555",
-              fontWeight: "400",
+              // fontSize: "14px",
+              // color: "#555",
+              // fontWeight: "400",
               marginLeft: "4px",
               fontFamily: "Arial, sans-serif",
             }}
@@ -121,11 +121,11 @@ function Navbar() {
           boxShadow="none"
         >
           <img src={cart} alt="profile" className="w-4 h-4" />
-          <span
+          <span className="text-xs font-base text-gray-600"
             style={{
-              fontSize: "14px",
-              color: "#555",
-              fontWeight: "400",
+              // fontSize: "14px",
+              // color: "#555",
+              // fontWeight: "400",
               marginLeft: "4px",
               fontFamily: "Arial, sans-serif",
             }}

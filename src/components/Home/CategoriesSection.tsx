@@ -4,11 +4,11 @@ import { Grid, Box, Text, Image } from "@chakra-ui/react";
 const CategoriesSection = () => {
   const categories = [
     { name: "Medicine", image: "https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0", discount: "SAVE 22% OFF" },
-    { name: "Lab Tests", image: "https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0", discount: "UPTO 70% OFF" },
-    { name: "Healthcare", image: "https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0", discount: "UPTO 60% OFF" },
-    { name: "PLUS", image: "https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0", discount: "SAVE 5% EXTRA" },
-    { name: "Offers", image: "https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0", discount: "" },
-    { name: "Value Store", image: "https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0", discount: "UPTO 50% OFF" },
+    { name: "Lab Tests", image: "https://assets.pharmeasy.in/apothecary/images/labtest_ff.webp?dim=256x0", discount: "UPTO 70% OFF" },
+    { name: "Healthcare", image: "https://assets.pharmeasy.in/apothecary/images/healthcare_ff.webp?dim=256x0", discount: "UPTO 60% OFF" },
+    { name: "PLUS", image: "https://assets.pharmeasy.in/apothecary/images/plus_ff.webp?dim=256x0", discount: "SAVE 5% EXTRA" },
+    { name: "Offers", image: "https://assets.pharmeasy.in/apothecary/images/offers_ff.webp?dim=256x0", discount: "" },
+    { name: "Value Store", image: "https://assets.pharmeasy.in/apothecary/images/value_store.png?dim=256x0", discount: "UPTO 50% OFF" },
   ];
 
   return (
@@ -32,11 +32,11 @@ const CategoriesSection = () => {
             justifyContent="center"
             bg="white"
             borderRadius="md"
-            boxShadow="md"
+            // boxShadow="md"
             p={2}
             _hover={{
               bg: "white", /* Background becomes white on hover */
-              boxShadow: "lg", /* Shadow appears on hover */
+              // boxShadow: "lg", /* Shadow appears on hover */
               transform: "scale(1.05)", /* Scaling effect on hover */
             }}
           >

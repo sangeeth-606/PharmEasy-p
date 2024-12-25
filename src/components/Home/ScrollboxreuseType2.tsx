@@ -77,6 +77,7 @@ const ScrollboxreuseType2 = () => {
       style={{
       width: "100vw", // Full viewport width
       overflowX: "hidden", // Prevent horizontal scroll on the page
+      overflowY: "hidden", // Prevent vertical scroll on the page
       boxSizing: "border-box",
       display: "flex",
       justifyContent: "center",
@@ -97,6 +98,7 @@ const ScrollboxreuseType2 = () => {
         style={{
         display: "flex",
         overflowX: "auto", // Horizontal scroll confined to this container
+        overflowY: "hidden", // Prevent vertical scroll
         gap: "20px",
         scrollBehavior: "smooth",
         whiteSpace: "nowrap", // Prevent wrapping
@@ -111,14 +113,14 @@ const ScrollboxreuseType2 = () => {
           style={{
           minWidth: "180px", // Fixed child width
           height: "250px",
-          backgroundColor: "#f0f0f0",
+          backgroundColor: "white",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
           borderRadius: "12px",
           flex: "0 0 auto",
-          boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+          // boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
           transition: "transform 0.3s ease",
           }}
           onMouseEnter={(e) =>

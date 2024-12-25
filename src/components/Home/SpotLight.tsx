@@ -106,6 +106,7 @@ const SpotLight = () => {
             boxSizing: "border-box",
             display: "flex",
             justifyContent: "center",
+            overflowY: "hidden", // Prevent vertical scroll
           }}
         >
           <div
@@ -117,6 +118,7 @@ const SpotLight = () => {
               boxSizing: "border-box",
               display: "flex",
               justifyContent: "center",
+              // overflowY: "hidden", // Prevent vertical scroll
             }}
           >
             <div
@@ -128,6 +130,7 @@ const SpotLight = () => {
                 whiteSpace: "nowrap", // Prevent wrapping
                 scrollbarWidth: "none", // Hide scrollbar for Firefox
                 maxWidth: "100%", // Ensure children do not overflow parent
+                overflowY: "hidden", // Prevent vertical scroll
               }}
               className="hide-scrollbar" // Add a class to hide scrollbar for Webkit browsers
             >
@@ -137,14 +140,14 @@ const SpotLight = () => {
                   style={{
                     minWidth: "180px", // Fixed child width
                     height: "250px",
-                    backgroundColor: "#f0f0f0",
+                    backgroundColor:"transparent",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
                     justifyContent: "center",
                     borderRadius: "12px",
                     flex: "0 0 auto",
-                    boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+                    // boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
                     transition: "transform 0.3s ease",
                   }}
                   onMouseEnter={(e) =>

@@ -43,13 +43,13 @@ const categories = [
 
 function Slugscroll() {
   return (
-    <div className="w-screen overflow-hidden box-border flex justify-center">
+    <div className="w-screen mt-8 overflow-hidden box-border flex justify-center">
       <div className="w-[70vw] mx-auto overflow-x-auto scrollbar-hide">
-        <div className="flex gap-5 whitespace-nowrap">
+        <div className="flex gap-7 whitespace-nowrap">
           {categories.map((category) => (
             <div
               key={category.id}
-              className="w-[400px] h-[200px] bg-gray-200 flex items-center justify-center rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 flex-shrink-0"
+              className="w-[450px] h-[225px] bg-gray-200 flex items-center justify-center rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 flex-shrink-0"
             >
               {category.label.startsWith("http") ? (
                 <img
