@@ -5,11 +5,13 @@ const categories = [
   },
   {
     id: "2",
-    label: "https://cdn01.pharmeasy.in/dam/banner/banner/8786963c3c8-scalpe_Ban.jpg",
+    label:
+      "https://cdn01.pharmeasy.in/dam/banner/banner/8786963c3c8-scalpe_Ban.jpg",
   },
   {
     id: "3",
-    label: "https://cdn01.pharmeasy.in/dam/banner/banner/1183ad82bb8-NEW-SLIPPERS.jpg",
+    label:
+      "https://cdn01.pharmeasy.in/dam/banner/banner/1183ad82bb8-NEW-SLIPPERS.jpg",
   },
   {
     id: "4",
@@ -17,15 +19,18 @@ const categories = [
   },
   {
     id: "5",
-    label: "https://cdn01.pharmeasy.in/dam/banner/banner/192c91627f4-Evion_Banner.jpg",
+    label:
+      "https://cdn01.pharmeasy.in/dam/banner/banner/192c91627f4-Evion_Banner.jpg",
   },
   {
     id: "6",
-    label: "https://cdn01.pharmeasy.in/dam/banner/banner/8786963c3c8-scalpe_Ban.jpg",
+    label:
+      "https://cdn01.pharmeasy.in/dam/banner/banner/8786963c3c8-scalpe_Ban.jpg",
   },
   {
     id: "7",
-    label: "https://cdn01.pharmeasy.in/dam/banner/banner/1183ad82bb8-NEW-SLIPPERS.jpg",
+    label:
+      "https://cdn01.pharmeasy.in/dam/banner/banner/1183ad82bb8-NEW-SLIPPERS.jpg",
   },
   {
     id: "8",
@@ -44,7 +49,12 @@ const categories = [
 function Slugscroll() {
   return (
     <div className="w-screen mt-8 overflow-hidden box-border flex justify-center">
-      <div className="w-[70vw] mx-auto overflow-x-auto scrollbar-hide">
+      <div
+        style={{
+          overflowY: "hidden", // Prevent vertical scroll
+        }}
+        className="w-[70vw] mx-auto overflow-x-auto scrollbar-hide"
+      >
         <div className="flex gap-7 whitespace-nowrap">
           {categories.map((category) => (
             <div
