@@ -18,6 +18,7 @@ import SpotLight from "./components/Home/SpotLight";
 import ScrollType3 from "./components/Home/ScrollType3";
 import WhyChooseUs from "./components/Home/WhyChooseUs";
 import What from "./components/foooterr/What";
+import TextSlug from "./components/foooterr/TextSlug";
 
 
 function App() {
@@ -66,8 +67,9 @@ function App() {
         </GridItem>
 
         {/* Footer */}
-        <GridItem area="footer" padding={4}>
+        <GridItem area="footer" bg="white" padding={4}>
           <What />
+          <TextSlug />
         </GridItem>
       </Grid>
     </ChakraProvider>
