@@ -1,5 +1,5 @@
 
-import { ChakraProvider, Box, Grid, GridItem } from "@chakra-ui/react";
+import { ChakraProvider,  Grid, GridItem } from "@chakra-ui/react";
 import theme from "./theme/theme";
 import Navbar from "./components/Navbar";
 import Herosection from "./components/Home/Herosection";
@@ -17,6 +17,7 @@ import LabtestCard from "./components/Home/LabtestCard";
 import SpotLight from "./components/Home/SpotLight";
 import ScrollType3 from "./components/Home/ScrollType3";
 import WhyChooseUs from "./components/Home/WhyChooseUs";
+import What from "./components/foooterr/What";
 
 
 function App() {
@@ -65,10 +66,8 @@ function App() {
         </GridItem>
 
         {/* Footer */}
-        <GridItem area="footer" bg="blue.700" color="white" padding={4}>
-          <Box textAlign="center" fontSize="md">
-            Footer
-          </Box>
+        <GridItem area="footer" padding={4}>
+          <What />
         </GridItem>
       </Grid>
     </ChakraProvider>
