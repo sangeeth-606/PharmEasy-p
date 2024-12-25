@@ -15,6 +15,9 @@ import AdsArea from "./components/Home/AdsArea";
 import LabtestCard from "./components/Home/LabtestCard";
 // import ScrollboxreuseType2 from "./components/Home/ScrollboxreuseType2";
 import SpotLight from "./components/Home/SpotLight";
+import ScrollType3 from "./components/Home/ScrollType3";
+import WhyChooseUs from "./components/Home/WhyChooseUs";
+
 
 function App() {
   // const categories = [
@@ -57,6 +60,8 @@ function App() {
           <LabtestCard/>
           
           <SpotLight />
+          <ScrollType3 />
+          <WhyChooseUs />
         </GridItem>
 
         {/* Footer */}
