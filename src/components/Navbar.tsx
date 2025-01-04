@@ -212,7 +212,7 @@
 // export default Navbar;
 
 
-import { Button, HStack, Modal, ModalOverlay, ModalContent, ModalCloseButton, ModalBody, ModalFooter, } from "@chakra-ui/react";
+import { Button, HStack, Modal, ModalOverlay, ModalContent,  ModalBody, ModalFooter, } from "@chakra-ui/react";
 import logo from "../Assets/logo_big.svg";
 import ic_ex from "../Assets/ic_express delivery.svg";
 import serr from "../Assets/serr.png";
@@ -325,7 +325,7 @@ function Navbar() {
           <Modal isOpen={showLogin} onClose={handleCloseLogin}>
             <ModalOverlay />
             <ModalContent>
-              <ModalCloseButton />
+              {/* <ModalCloseButton /> */}
               <ModalBody>
                 {/* Render the Login component here */}
                 <Login  />
