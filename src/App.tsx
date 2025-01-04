@@ -20,6 +20,7 @@ import WhyChooseUs from "./components/Home/WhyChooseUs";
 import What from "./components/foooterr/What";
 import TextSlug from "./components/foooterr/TextSlug";
 import Last from "./components/foooterr/Last";
+import Login from "./components/Home/Login";
 
 
 function App() {
@@ -72,6 +73,7 @@ function App() {
           <What />
           <TextSlug />
           <Last />
+          <Login />
         </GridItem>
       </Grid>
     </ChakraProvider>
