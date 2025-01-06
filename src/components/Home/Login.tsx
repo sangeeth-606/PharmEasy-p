@@ -1,7 +1,6 @@
-// import React from "react";
+
 import { Button, VStack, Box, Text, Input, Link,  } from "@chakra-ui/react";
-// import { CloseIcon } from "@chakra-ui/icons";
-// import { LogOutIcon } from "lucide-react";
+
 
 function Login() {
   return (
@@ -21,18 +20,7 @@ function Login() {
         boxShadow="md"
         position="relative"
       >
-        {/* Close button */}
-        {/* <IconButton
-          icon={<LogOutIcon />}
-          aria-label="Close"
-          position="absolute"
-          top="0.5rem"
-          left="0.5rem"
-          size="sm"
-          onClick={onClose}
-          bg="transparent"
-          _hover={{ bg: "gray.200" }}
-        /> */}
+        
 
         <Box
           bgColor="#10847e"
